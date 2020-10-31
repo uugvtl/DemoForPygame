@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 
-screen = pygame.display.set_mode((640, 480))  # 设置窗口的大小
+screen = pygame.display.set_mode((1024, 480))  # 设置窗口的大小
 background = pygame.Surface(screen.get_size())  # 创建一个surface，名字叫background，大小和screen一样
 background.fill((255, 255, 255))  # 用白色填充background；255,255,255是RGB的白色
 background = background.convert()  # 对background进行convert()，可以加快后面添加时速度
